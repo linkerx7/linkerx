@@ -1,0 +1,24 @@
+body{
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    word-spacing: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    background: linear-gradient(127deg, rgba(31, 226, 248, 0.8), rgba(145, 173, 194, 0) 70.71%),
+    linear-gradient(201deg, rgba(202, 190, 227, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(21, 21, 222, 0.8), rgba(0,0,255,0) 70.71%);
+}
+h3{
+    margin-bottom: 50px;
+    margin-top: 35px;
+}
+h2{ display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+a{
+   margin-left: 100px;
+ border: black;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html
+ 
+lang="en">
+
+<head>
+
+    
+<meta
+ 
+charset="UTF-8">
+
+    
+<meta
+ 
+name="viewport"
+ 
+content="width=device-width, initial-scale=1.0">
+
+    
+<title>Appointment Form</title>
+    <style>
+        form {
+           
+            width: 50%;
+            margin: 50px auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        label {
+            row-gap: 100px;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            gap: 50px;
+            margin-top: -100px;
+            display: flex-box;
+            margin-left: 35%;
+            background-color: antiquewhite;
+            border-radius: 10px;
+            width: 50%;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        textarea {
+            border-radius: 10px;
+            width: 90%;
+            height: 100px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            margin-left: 5%;
+        }
+
+        button {
+            display: flex;
+            margin-top: 10px;
+            margin-left: 45%;
+            justify-content: center;
+            border-radius: 15px;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        body{
+            background: linear-gradient(127deg, rgba(122, 139, 153, 0.8), rgba(145, 173, 194, 0) 70.71%),
+                    linear-gradient(271deg, rgba(65,117,212,.8), rgba(0,255,0,0) 70.71%),
+                    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+        
+        }
+        .appointform {
+            gap: 50px;
+            margin-left: 10%;
+            color: black;
+        }
+        .appoint-title {
+            font-weight: bold; 
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            margin-left: 230px;
+
+        }
+        .appoint{
+            margin-top: 25px;
+        }
+        
+    </style>
+    <link rel="stylesheet" src="appoinment.css">
+</head>
+<body class="body-back">
+
+<form action="#" id="form">
+    <fieldset>
+        <legend  class="appoint-title">Registeration Form</legend>
+
+        <label for="name" class="appointform">Name:</label>
+
+        
+<input type="text"id="name"name="name"required>
+
+
+        
+<label for="email" class="appointform">Email:</label>
+
+        
+<input type="email"id="email"name="email"required>
+
+
+        
+<label for="phone" class="appointform">Phone Number:</label>
+
+        
+<input type="tel"id="phone"name="phone"required>
+<label for="exper" class="appointform">Experience:</label>
+
+        
+<input type="tel"id="exper"name="exper"required>
+
+
+        
+
+<div class="appoint">
+    <label for="message" style="margin-left: 50px; margin-bottom:20px" >Address:</label>
+        <textarea  id="message" name="message" for="message" maxlength="1000"></textarea>
+</div>
+        
+
+        <button style="display: flex; justify-content:center;" type="submit">Submit</button>
+    </fieldset>
+</form>
+<script src="appointment.js"></script>
+</body>
+</html>
